@@ -1,0 +1,38 @@
+body {
+
+	background-image: url(../img/high_school_districts.png);
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	text-align: left;
+	background-color: lightblue;
+	margin: 7% 7%;
+
+}
+.submit {
+	
+	margin: 2% 10%;
+}
+
+#results {
+	color: #fff;
+	margin: 10px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.success {
+	background-color: #5cb85c;
+	transition: 0.3s all ease-in-out;
+}
+
+.failure {
+	background-color: #d9534f;
+	transition: 0.3s all ease-in-out;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Project</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+
+<div  class="container">
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+<div id="form">
+<h1>Survey</h1>
+
+<div class ="form-group">
+<!-- first question with checkbox option-->
+<h2>Which Highschool did you go to?</h2>
+<input type="checkbox" class="q1" value="Balboa"> Balboa<br>
+<input type="checkbox" class="q1" value="Jefferson"> Jefferson<br>
+<input type="checkbox" class="q1" value="Las Lomas"> Las Lomas<br>
+	<li>Other<input class="q1" type="text" value=""></li>
+</div>
+
+<!-- second question with dropdown select-->
+
+	<h2>What is your favorite class?</h2>
+	<select class="form-control">
+	<option class="q2" value="Select your favorite class">Select your favorite class</option>
+	<option class="q2" value="Science">Science</option>
+	<option class="q2" value="Math">Math</option>
+	<option class="q2" value="History">History</option>
+	<option class="q2" value="P.E.">P.E.</option>
+	</select>
+</div>
+
+<!-- third question with radio buttons -->
+
+	<h2>Your favorite Extra curriculars</h2>
+	<div class ="form-group" class="radio">
+	<form>
+	<input class="q3" type="radio" name="radio1" value="Sports" id=""> Sports<br>
+	<input class="q3" type="radio" name="radio1" value="Music"> Music<br>
+	<input class="q3" type="radio" name="radio1" value="Art"> Art<br>
+	<input class="q3" type="radio" name="radio1" value="Scrince"> Science<br>
+	<input class="q3" type="radio" name="radio1" value="P.E."> P.E.
+	</div>
+	</div>
+	<button class="submit" type="button" id="submitButton" class="btn btn-primary">Submit Survey</button>
+	
+	</form>
+
+
+	<!-- display results -->
+	<div id="result"></div>
+</div>
+</div>
+</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
